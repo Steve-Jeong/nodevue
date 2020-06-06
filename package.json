@@ -1,7 +1,6 @@
 {
   "name": "nodevue",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "directories": {
     "lib": "lib"
@@ -11,19 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/web-n/Nodejs.git"
+    "url": "git+https://github.com/Steve-Jeong/nodevue.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/web-n/Nodejs/issues"
+    "url": "https://github.com/Steve-Jeong/nodevue/issues"
   },
-  "homepage": "https://github.com/web-n/Nodejs#readme",
+  "homepage": "https://github.com/Steve-Jeong/nodevue",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.3",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "pm2": "^4.4.0",
     "sanitize-html": "^1.18.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
